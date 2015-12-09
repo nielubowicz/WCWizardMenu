@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0838F0E21BF514E1004AD150 /* DeviceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0838F0E11BF514E1004AD150 /* DeviceDataSource.swift */; };
+		08B4A8D31BF2B71600AB7AB4 /* IPMenulet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D21BF2B71600AB7AB4 /* IPMenulet.swift */; };
+		08B4A8D51BF2BC8600AB7AB4 /* ParticleEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D41BF2BC8600AB7AB4 /* ParticleEndpoints.swift */; };
+		08B4A8D71BF2C2D300AB7AB4 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D61BF2C2D300AB7AB4 /* Particle.swift */; };
+		08B4A8D91BF2CABD00AB7AB4 /* EndpointProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D81BF2CABD00AB7AB4 /* EndpointProtocols.swift */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m */; };
+		390169FD94FE7736DC082E48 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F088E415164F80467A613227 /* Pods.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		F6945C831AA68A0800E47791 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6945C821AA68A0800E47791 /* Media.xcassets */; };
-		F6ACF39E165FE8B600C0113D /* IPMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACF39D165FE8B600C0113D /* IPMenulet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0838F0E11BF514E1004AD150 /* DeviceDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDataSource.swift; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08B4A8D21BF2B71600AB7AB4 /* IPMenulet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPMenulet.swift; sourceTree = "<group>"; };
+		08B4A8D41BF2BC8600AB7AB4 /* ParticleEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleEndpoints.swift; sourceTree = "<group>"; };
+		08B4A8D61BF2C2D300AB7AB4 /* Particle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		08B4A8D81BF2CABD00AB7AB4 /* EndpointProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointProtocols.swift; sourceTree = "<group>"; };
+		08B6D4C21BF390DD00F6BA9F /* IPMenuletExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPMenuletExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -27,11 +38,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2AAA93D73A34ACA7A8A2F655 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5B9D8032C5117B276A7345AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* IPMenuletExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IPMenuletExample-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* IPMenuletExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPMenuletExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F088E415164F80467A613227 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6945C821AA68A0800E47791 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		F6ACF39C165FE8B600C0113D /* IPMenulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPMenulet.h; sourceTree = "<group>"; };
-		F6ACF39D165FE8B600C0113D /* IPMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPMenulet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				390169FD94FE7736DC082E48 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,10 +62,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0838F0E11BF514E1004AD150 /* DeviceDataSource.swift */,
 				256AC3D80F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m */,
-				F6ACF39C165FE8B600C0113D /* IPMenulet.h */,
-				F6ACF39D165FE8B600C0113D /* IPMenulet.m */,
+				08B4A8D21BF2B71600AB7AB4 /* IPMenulet.swift */,
+				08B4A8D41BF2BC8600AB7AB4 /* ParticleEndpoints.swift */,
+				08B4A8D61BF2C2D300AB7AB4 /* Particle.swift */,
+				08B4A8D81BF2CABD00AB7AB4 /* EndpointProtocols.swift */,
+				08B6D4C21BF390DD00F6BA9F /* IPMenuletExample-Bridging-Header.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -91,6 +108,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				A6CA47217B6F881BCF31BED8 /* Pods */,
 			);
 			name = IPMenuletExample;
 			sourceTree = "<group>";
@@ -120,8 +138,18 @@
 			children = (
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				F088E415164F80467A613227 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6CA47217B6F881BCF31BED8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D8032C5117B276A7345AB /* Pods.debug.xcconfig */,
+				2AAA93D73A34ACA7A8A2F655 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IPMenuletExample" */;
 			buildPhases = (
+				6CC74B6FE8159EB556005165 /* Check Pods Manifest.lock */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				96342FE96336469BBBEBC789 /* Embed Pods Frameworks */,
+				F2FE24EF27A53ED54615C98B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +182,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IPMenuletExample" */;
 			compatibilityVersion = "Xcode 3.1";
@@ -184,14 +216,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CC74B6FE8159EB556005165 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96342FE96336469BBBEBC789 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2FE24EF27A53ED54615C98B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				08B4A8D71BF2C2D300AB7AB4 /* Particle.swift in Sources */,
+				08B4A8D31BF2B71600AB7AB4 /* IPMenulet.swift in Sources */,
+				0838F0E21BF514E1004AD150 /* DeviceDataSource.swift in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m in Sources */,
-				F6ACF39E165FE8B600C0113D /* IPMenulet.m in Sources */,
+				08B4A8D91BF2CABD00AB7AB4 /* EndpointProtocols.swift in Sources */,
+				08B4A8D51BF2BC8600AB7AB4 /* ParticleEndpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +303,11 @@
 /* Begin XCBuildConfiguration section */
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9D8032C5117B276A7345AB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -232,15 +318,20 @@
 				GCC_PREFIX_HEADER = IPMenuletExample_Prefix.pch;
 				INFOPLIST_FILE = "IPMenuletExample-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = IPMenuletExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "IPMenuletExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAA93D73A34ACA7A8A2F655 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
@@ -248,7 +339,9 @@
 				GCC_PREFIX_HEADER = IPMenuletExample_Prefix.pch;
 				INFOPLIST_FILE = "IPMenuletExample-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = IPMenuletExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "IPMenuletExample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -260,6 +353,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx;
@@ -273,6 +367,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
