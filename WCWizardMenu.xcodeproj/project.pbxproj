@@ -3,17 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08153CD11C212479008630B3 /* WCWizardMenuAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08153CD01C212479008630B3 /* WCWizardMenuAppDelegate.swift */; };
 		0838F0E21BF514E1004AD150 /* DeviceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0838F0E11BF514E1004AD150 /* DeviceDataSource.swift */; };
-		08B4A8D31BF2B71600AB7AB4 /* IPMenulet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D21BF2B71600AB7AB4 /* IPMenulet.swift */; };
-		08B4A8D51BF2BC8600AB7AB4 /* ParticleEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D41BF2BC8600AB7AB4 /* ParticleEndpoints.swift */; };
-		08B4A8D71BF2C2D300AB7AB4 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D61BF2C2D300AB7AB4 /* Particle.swift */; };
-		08B4A8D91BF2CABD00AB7AB4 /* EndpointProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D81BF2CABD00AB7AB4 /* EndpointProtocols.swift */; };
+		08B4A8D31BF2B71600AB7AB4 /* WCWizardMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4A8D21BF2B71600AB7AB4 /* WCWizardMenu.swift */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		256AC3DA0F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m */; };
 		390169FD94FE7736DC082E48 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F088E415164F80467A613227 /* Pods.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -22,26 +19,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08153CD01C212479008630B3 /* WCWizardMenuAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCWizardMenuAppDelegate.swift; sourceTree = "<group>"; };
 		0838F0E11BF514E1004AD150 /* DeviceDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDataSource.swift; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		08B4A8D21BF2B71600AB7AB4 /* IPMenulet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPMenulet.swift; sourceTree = "<group>"; };
-		08B4A8D41BF2BC8600AB7AB4 /* ParticleEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleEndpoints.swift; sourceTree = "<group>"; };
-		08B4A8D61BF2C2D300AB7AB4 /* Particle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
-		08B4A8D81BF2CABD00AB7AB4 /* EndpointProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointProtocols.swift; sourceTree = "<group>"; };
-		08B6D4C21BF390DD00F6BA9F /* IPMenuletExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPMenuletExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		08B4A8D21BF2B71600AB7AB4 /* WCWizardMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCWizardMenu.swift; sourceTree = "<group>"; };
+		08B6D4C21BF390DD00F6BA9F /* WCWizardMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCWizardMenu-Bridging-Header.h"; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		256AC3D80F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPMenuletExampleAppDelegate.h; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPMenuletExampleAppDelegate.m; sourceTree = "<group>"; };
-		256AC3F00F4B6AF500CF3369 /* IPMenuletExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPMenuletExample_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2AAA93D73A34ACA7A8A2F655 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5B9D8032C5117B276A7345AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* IPMenuletExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IPMenuletExample-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* IPMenuletExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPMenuletExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107310486CEB800E47090 /* WCWizardMenu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WCWizardMenu-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* WCWizardMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCWizardMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F088E415164F80467A613227 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6945C821AA68A0800E47791 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,13 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				0838F0E11BF514E1004AD150 /* DeviceDataSource.swift */,
-				256AC3D80F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.h */,
-				256AC3D90F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m */,
-				08B4A8D21BF2B71600AB7AB4 /* IPMenulet.swift */,
-				08B4A8D41BF2BC8600AB7AB4 /* ParticleEndpoints.swift */,
-				08B4A8D61BF2C2D300AB7AB4 /* Particle.swift */,
-				08B4A8D81BF2CABD00AB7AB4 /* EndpointProtocols.swift */,
-				08B6D4C21BF390DD00F6BA9F /* IPMenuletExample-Bridging-Header.h */,
+				08B4A8D21BF2B71600AB7AB4 /* WCWizardMenu.swift */,
+				08B6D4C21BF390DD00F6BA9F /* WCWizardMenu-Bridging-Header.h */,
+				08153CD01C212479008630B3 /* WCWizardMenuAppDelegate.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -95,7 +83,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* IPMenuletExample.app */,
+				8D1107320486CEB800E47090 /* WCWizardMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +104,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				256AC3F00F4B6AF500CF3369 /* IPMenuletExample_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -125,7 +112,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107310486CEB800E47090 /* IPMenuletExample-Info.plist */,
+				8D1107310486CEB800E47090 /* WCWizardMenu-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				F6945C821AA68A0800E47791 /* Media.xcassets */,
@@ -155,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* IPMenuletExample */ = {
+		8D1107260486CEB800E47090 /* WCWizardMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IPMenuletExample" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WCWizardMenu" */;
 			buildPhases = (
 				6CC74B6FE8159EB556005165 /* Check Pods Manifest.lock */,
 				8D1107290486CEB800E47090 /* Resources */,
@@ -170,10 +157,10 @@
 			);
 			dependencies = (
 			);
-			name = IPMenuletExample;
+			name = WCWizardMenu;
 			productInstallPath = "$(HOME)/Applications";
 			productName = IPMenuletExample;
-			productReference = 8D1107320486CEB800E47090 /* IPMenuletExample.app */;
+			productReference = 8D1107320486CEB800E47090 /* WCWizardMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -183,9 +170,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IPMenuletExample" */;
-			compatibilityVersion = "Xcode 3.1";
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WCWizardMenu" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -198,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* IPMenuletExample */,
+				8D1107260486CEB800E47090 /* WCWizardMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -269,13 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08153CD11C212479008630B3 /* WCWizardMenuAppDelegate.swift in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				08B4A8D71BF2C2D300AB7AB4 /* Particle.swift in Sources */,
-				08B4A8D31BF2B71600AB7AB4 /* IPMenulet.swift in Sources */,
+				08B4A8D31BF2B71600AB7AB4 /* WCWizardMenu.swift in Sources */,
 				0838F0E21BF514E1004AD150 /* DeviceDataSource.swift in Sources */,
-				256AC3DA0F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.m in Sources */,
-				08B4A8D91BF2CABD00AB7AB4 /* EndpointProtocols.swift in Sources */,
-				08B4A8D51BF2BC8600AB7AB4 /* ParticleEndpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,21 +291,22 @@
 			baseConfigurationReference = 5B9D8032C5117B276A7345AB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = IPMenuletExample_Prefix.pch;
-				INFOPLIST_FILE = "IPMenuletExample-Info.plist";
+				GCC_PREFIX_HEADER = WCWizardMenu_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/WCWizardMenu-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = IPMenuletExample;
-				SWIFT_OBJC_BRIDGING_HEADER = "IPMenuletExample-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = WCWizardMenu;
+				SWIFT_OBJC_BRIDGING_HEADER = "WCWizardMenu-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -330,25 +316,26 @@
 			baseConfigurationReference = 2AAA93D73A34ACA7A8A2F655 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = IPMenuletExample_Prefix.pch;
-				INFOPLIST_FILE = "IPMenuletExample-Info.plist";
+				GCC_PREFIX_HEADER = WCWizardMenu_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/WCWizardMenu-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = IPMenuletExample;
-				SWIFT_OBJC_BRIDGING_HEADER = "IPMenuletExample-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = WCWizardMenu;
+				SWIFT_OBJC_BRIDGING_HEADER = "WCWizardMenu-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -363,7 +350,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -376,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IPMenuletExample" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WCWizardMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -385,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IPMenuletExample" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WCWizardMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

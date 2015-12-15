@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9059"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,21 +11,15 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="494" customClass="IPMenuletExampleAppDelegate"/>
+        <customObject id="494" customClass="WCWizardMenuAppDelegate" customModule="WCWizardMenu" customModuleProvider="target"/>
         <customObject id="420" customClass="NSFontManager"/>
-        <customObject id="533" customClass="IPMenulet" customModule="IPMenuletExample" customModuleProvider="target">
+        <customObject id="533" customClass="WCWizardMenu" customModule="WCWizardMenu" customModuleProvider="target">
             <connections>
                 <outlet property="menuletMenu" destination="534" id="Oba-P5-2kG"/>
             </connections>
         </customObject>
         <menu id="534" userLabel="MenuletMenu">
             <items>
-                <menuItem title="Check" id="536" userLabel="Check Top Device">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="updateIPAddress:" target="533" id="544"/>
-                    </connections>
-                </menuItem>
                 <menuItem title="Get Devices" id="fp0-8x-IMg" userLabel="Get Devices">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
